@@ -39,7 +39,7 @@ def run(args):
     allele_none_vars = maf_df[(allele_ref == allele_1) & (allele_ref == allele_2)]
     print("Number of lines: %d" % len(maf_df))
     print("Allele 1 is different from the ref and 2 is the same: %d" % len(allele_1_vars))
-    print("Allele 2 is different from the ref and 2 is the same: %d" % len(allele_2_vars))
+    print("Allele 2 is different from the ref and 1 is the same: %d" % len(allele_2_vars))
     print("Both alleles are different from the ref: %d" % len(allele_both_vars))
     print("Both alleles are the same as the ref: %d" % len(allele_none_vars))
 
